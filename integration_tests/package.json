@@ -1,0 +1,21 @@
+{
+  "name": "integration_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cypress open",
+    "lint": "eslint",
+    "test": "cypress run"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@cypress/code-coverage": "^3.9.2",
+    "cypress": "^6.6.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "otpauth": "^6.2.3"
+
+  }
+}

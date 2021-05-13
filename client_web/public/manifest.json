@@ -1,0 +1,9 @@
+{
+  "short_name": "UCL Insights",
+  "name": "UCL Help and Insights",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

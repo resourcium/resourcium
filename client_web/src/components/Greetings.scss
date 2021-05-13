@@ -1,0 +1,55 @@
+.Greetings {
+  height: 170px;
+
+  .wiggle{
+    fill: var(--greeting-bgd);
+  }
+  p {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    padding-left: 10px;
+    color: var(--greeting-text);
+    margin: 30px 0 0 0;
+  }
+
+  .name {
+    font-weight: 500;
+  }
+
+  @media (max-width: 425px) {
+    p {
+      font-size: 35px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .Greetings{
+  height: 125px;
+
+    .wiggle{
+      width:250px;
+      height:150px;
+    }
+
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (min-width: 1000px){
+  .Greetings{
+    height: 200px;
+
+    .wiggle{
+      width: 400px;
+      height: 300px;
+    }
+
+    p {
+      font-size: 60px;
+    }
+  }
+}

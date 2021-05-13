@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`links snapshot matches 1`] = `
+<div
+  className="other"
+>
+  <p>
+    Here are some useful links within and outside of the university that you may want to engage with.
+  </p>
+  <a
+    href="https://www.ucl.ac.uk/library/"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Library
+  </a>
+  <a
+    href="https://www.meetup.com/home/"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Meetup
+  </a>
+  <a
+    href="https://www.ucl.ac.uk/students/support-and-wellbeing/wellbeing"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Mental Wellbeing
+  </a>
+  <a
+    href="https://studentsunionucl.org/"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Student Union
+  </a>
+</div>
+`;

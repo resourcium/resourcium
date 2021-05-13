@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app snapshot matches 1`] = `
+<div
+  className="Login"
+>
+  <div
+    className="box"
+    onClick={[Function]}
+  >
+    <img
+      src="ucl-logo.jpg"
+    />
+    <h2>
+      Sign in with SSO
+    </h2>
+  </div>
+</div>
+`;

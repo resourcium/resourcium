@@ -1,0 +1,56 @@
+# This file contains an example UCL deployment with sensitive information removed.
+
+APP_TITLE: UCL Resourcium
+
+# It is safe to ignore these settings unless you want to override the app defaults
+# NOTE: users are able to change all these settings from the default in their personal settings page.
+DEFAULT_USER_SETTINGS:
+  twitch: null
+  twitter: true
+
+# This twitter feed to show on the home page if the user enables twitter
+HOME_TWITTER_FEED: https://twitter.com/ucl?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+
+# The secret and registration endpoint to link with ORCA
+ORCA:
+  secret: SOME_SECRET
+  url: ORCA_REGISTER_ENDPOINT
+
+# On the homepage there will be a list of useful links which can be specifed here
+USEFUL_LINKS:
+- href: https://www.ucl.ac.uk/library/
+  label: Library
+- href: https://www.meetup.com/home/
+  label: Meetup
+- href: https://www.ucl.ac.uk/students/support-and-wellbeing/wellbeing
+  label: Mental Wellbeing
+- href: https://studentsunionucl.org/
+  label: Student Union
+
+# On the wellbeing page you can list some links with a label along with a much longer description.
+WELLBEING_LINKS:
+- description: >-
+    Use this form as a means of getting help for additional
+    course content and material that you need. Before you use
+    this form, head over to the Student Help Page for resources
+    that the university already provides.
+  href: https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwn_uYgKALZRKrImf9y-xIrtURTRWMk9HTzFHVTNVUU5BQ1pIRDBaTTZPWi4u
+  label: Additional Help Form
+- description: >-
+    Use this form to emphasise your stress levels at the moment
+    on the course your doing. This will allow course reps to
+    gain insights on how students are doing as a whole
+    anonymously and bring about improvements.
+  href: https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwn_uYgKALZRKrImf9y-xIrtUNFg2REQ5MjVFMjZTRVpIS1BYWVczNk5LQy4u
+  label: Report Stress Level
+
+# The token used to allow users to communicate with the QNA bot.
+QNA_BOT_TOKEN: ENTER_YOUR_BOT_TOKEN
+
+# The secret information to access linkedin learning
+LINKEDIN_LEARNING:
+  client_id: CLIENT_ID
+  client_secret: CLIENT_SECRET
+
+# When running tests it's useful to have a way to reset 2FA, this should only be enabled for development mode.
+ALLOW_RESET_2FA: false

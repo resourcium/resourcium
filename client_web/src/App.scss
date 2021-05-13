@@ -1,0 +1,170 @@
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  font-weight: lighter;
+
+  --greeting-bgd: #E67E22;
+  --greeting-text: #000000;
+
+  --mainbgdcolor: white;
+
+  --navbar-color: white;
+  --navbar-border: rgb(80, 79, 79);
+  --navbar-icon: rgb(80, 79, 79);
+  --navbar-icon-hover: #E67E22;
+
+  --tab-color: lightgray;
+  --tabs-selected-textcolor: #E67E22;
+  --tabs-selected-bgdcolor: white;
+  --tabs-border-color: rgb(80, 79, 79);
+
+  --button-bgd-color: #2C3E50;
+  --button-text-color: #E67E22;
+
+  --forms-bgd-color: #99E1D9;
+  --forms-txt-color: black;
+
+  --results-bgd-color: #2A265F;
+  --results-text-color: white;
+  --results-secondarybgd-color: #fff;
+
+  --settings-bgd-color:lightgray;
+  --settings-bgd-color2:  #99E1D9; 
+  --settings-border: black;
+  --settings-slider-color: white;
+  --settings-slider-active-color:#27ae60;
+  --settings-text:black;
+  --settings-text2: black;
+  --slider-color-off: #c0392b;
+
+  --secondary-color: #2C3E50;
+  --primary-color: #E67E22;
+  --text1: white;
+  --register-error:  #c0392b;
+  --register-success: #27ae60;
+  --register-text:black;
+  --background-color: lightgray;
+  --background-color-formbtn: lightgray;
+  --text-color-formbtn: #E67E22;
+  --navbar: rgb(80, 79, 79);
+  --border: black;
+ 
+
+
+  --meetings-bgd-color: #E8A87C;
+  --meetings-text-color: black;
+
+  .meeting {
+    background-color: var(--meetings-bgd-color);
+    font-weight: 500;
+    border: solid;
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--meetings-text-color);
+  }
+
+}
+
+#app.dark {
+  --greeting-bgd: black;
+  --greeting-text: white;
+
+  --mainbgdcolor: rgb(54, 54, 54);
+
+  --navbar-color: lightgray;
+  --navbar-border: black;
+  --navbar-icon: rgb(54,54,54);
+  --navbar-icon-hover: #5d8ec7;
+
+  --tab-color: darkgray;
+  --tabs-selected-textcolor: #5d8ec7;
+  --tabs-selected-bgdcolor: white;
+  --tabs-border-color: rgb(54, 54, 54);
+
+  --button-bgd-color: #5d8ec7;
+  --button-text-color: #000000;
+
+  --forms-bgd-color: rgb(109, 109, 109);
+  --forms-txt-color: white;
+
+  --results-bgd-color: #2A265F;
+  --results-text-color: white;
+  --results-secondarybgd-color: #fff;
+
+  --settings-bgd-color:  rgb(109, 109, 109);
+  --settings-bgd-color2:#2C3E50; 
+  --settings-border: black;
+  --settings-slider-color: white;
+  --settings-slider-active-color: #27ae60;
+  --settings-text: white;
+  --settings-text2: white;
+  --slider-color-off: #c0392b;
+
+  --meetings-bgd-color: #2C3E50;
+  --meetings-text-color: white;
+
+  --secondary-color: #2C3E50;
+  --primary-color: #E67E22;
+  --text1: white;
+  --register-error:  #c0392b;
+  --register-success: #27ae60;
+  --register-text:white; 
+  --background-color: lightgray;
+  --background-color-formbtn: lightgray;
+  --text-color-formbtn: #E67E22;
+  --navbar: rgb(80, 79, 79);
+  --border: black;
+
+  .Register {
+    color: #eee;
+  }
+}
+
+#app.mobile {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: scroll;
+  background-color:var(--mainbgdcolor);
+}
+
+.page {
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 800;
+    color: var(--greeting-text);
+  }
+
+  max-width: 500px;
+  margin: 0 auto;
+
+  margin-bottom: 50px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  .page {
+    max-width: 70%;
+
+    h2 {
+      font-size: 6vw;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .searchbtn {
+      height: 35px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}

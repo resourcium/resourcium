@@ -1,0 +1,16 @@
+on: [push, pull_request]
+
+name: Lint azure functions (back end)
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '12'
+    - run: |
+        cd azure_functions
+        npm install
+        npm audit
+        npm run lint

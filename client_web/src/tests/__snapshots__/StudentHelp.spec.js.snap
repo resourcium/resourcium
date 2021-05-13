@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`greetings snapshot matches 1`] = `
+<div
+  className="StudentHelp page"
+>
+  <h2>
+    Student Help page
+  </h2>
+  <div
+    className="tabs"
+  >
+    <div
+      className="tabs-label-row"
+    >
+      <div
+        className="tabs-label selected"
+        onClick={[Function]}
+      >
+        Microsoft Learn
+      </div>
+      <div
+        className="tabs-label"
+        onClick={[Function]}
+      >
+        Linkedin Learning
+      </div>
+      <div
+        className="tabs-label"
+        onClick={[Function]}
+      >
+        QnABot V1
+      </div>
+    </div>
+    <div
+      className="tabs-content"
+    >
+      <p>
+        Loading modules...
+      </p>
+    </div>
+  </div>
+</div>
+`;

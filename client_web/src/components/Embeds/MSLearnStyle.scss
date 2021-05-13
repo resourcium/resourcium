@@ -1,0 +1,20 @@
+.modules{
+    .searchContainer{
+        .inputbar{
+            width: 60%;
+            height: 30px;
+        }
+        .searchbtn{
+            width: 30%;
+            height: 35px;
+            background-color: var(--button-bgd-color);
+            color: var(--button-text-color);
+            border: none;
+            outline: none;
+            appearance: none;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+    }
+
+}

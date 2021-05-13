@@ -1,0 +1,76 @@
+.Register {
+  padding: 5px;
+  input, button {
+    border: none;
+    outline: none;
+    appearance: none;
+
+    height: 50px;
+    width: 100%;
+    display: block;
+
+    border-radius: 5px;
+
+    font-family: inherit;
+
+    margin: 10px 0;
+  }
+
+  input[type="text"] {
+    font-size: 25px;
+    padding: 5px;
+
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+  }
+
+  input[type="submit"], button.setup2fa {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .error {
+    color: var(--register-error);
+    font-weight: bolder;
+  }
+
+  .success {
+    color: var(--register-success);
+    font-weight: bolder;
+  }
+
+  .text {
+    color: var(--register-text);
+  }
+}
+
+.ViewSecret {
+  code {
+    margin: 10px auto;
+
+    background-color: var(--text1);
+    padding: 3px;
+    display: block;
+
+    overflow-x: scroll;
+    font-size: 20px;
+  }
+
+  .imgWrapper {
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    span {
+      opacity: 0.7;
+      font-weight: bolder;
+    }
+  }
+}

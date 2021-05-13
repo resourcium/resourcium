@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`greetings snapshot matches 1`] = `
+<div
+  className="Greetings"
+>
+  <svg
+    className="wiggle"
+    style={
+      Object {
+        "--greeting-bgd": "#E67E22",
+      }
+    }
+  >
+    greetingsimage.svg
+  </svg>
+  <p>
+    Hi, 
+    <span
+      className="name"
+    />
+  </p>
+</div>
+`;

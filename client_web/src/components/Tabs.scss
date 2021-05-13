@@ -1,0 +1,36 @@
+.tabs {
+  background-color: var(--tab-color);
+  //border-radius: 5px;
+
+  .tabs-label-row {
+    display: flex;
+    align-items: center;
+    min-height: 35px;
+
+    font-weight: 500;
+    font-size: 20px;
+
+    .tabs-label {
+      padding: 0 5px;
+      cursor: pointer;
+
+      &.selected {
+        color: var(--tabs-selected-textcolor);
+        background-color:var(--tabs-selected-bgdcolor);
+      }
+
+      &:not(:first-child) {
+        border-left: 1px solid var(--tabs-border-color);
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px){
+  .tabs {
+
+    .tabs-label-row{
+      font-size: 25px;
+    }
+  }
+} 

@@ -1,0 +1,18 @@
+on: [push, pull_request]
+
+name: Test Client Web (react app)
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '12'
+    - run: |
+        cd client_web
+        cp src/devDeployConfig.json src/deployConfig.json
+        npm install
+        npm run lint
+        npm run build
+      # npm run test

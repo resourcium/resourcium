@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`forms snapshot matches 1`] = `
+<div
+  className="FormsPage page"
+>
+  <h2>
+    Student Wellbeing page
+  </h2>
+  <div
+    className="intro"
+  >
+    <p>
+      Use this page to report your stress levels, course blockers as well as areas where you require help in. Below are the forms that are currently available to you.
+    </p>
+  </div>
+  <hr />
+  <div
+    className="FormSection"
+  >
+    <p>
+      Use this form as a means of getting help for additional course content and material that you need. Before you use this form, head over to the Student Help Page for resources that the university already provides.
+    </p>
+    <a
+      href="https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwn_uYgKALZRKrImf9y-xIrtURTRWMk9HTzFHVTNVUU5BQ1pIRDBaTTZPWi4u"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Additional Help Form
+    </a>
+  </div>
+  <hr />
+  <div
+    className="FormSection"
+  >
+    <p>
+      Use this form to emphasise your stress levels at the moment on the course your doing. This will allow course reps to gain insights on how students are doing as a whole anonymously and bring about improvements.
+    </p>
+    <a
+      href="https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwn_uYgKALZRKrImf9y-xIrtUNFg2REQ5MjVFMjZTRVpIS1BYWVczNk5LQy4u"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Report Stress Level
+    </a>
+  </div>
+</div>
+`;
